@@ -93,7 +93,7 @@ section.about p {
 
 /*section media*/
 
-section.container.even.services {
+section.container.even.photos {
     background-color: #f6f7f7;
     text-align: center;
 }
@@ -103,9 +103,12 @@ section.container {
 }
 section.container div.column {
     float: left;
-    width: 30%;
+    width: 26.5%;
     margin-right: 3.5%;
     padding: 0%
+}
+section.container div.column img {
+    width: 100%;
 }
 section.container div.column.last {
     margin: 0;
