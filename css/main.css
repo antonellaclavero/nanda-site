@@ -93,24 +93,27 @@ section.about p {
 
 /*section media*/
 
-section.container.even.photos {
-    background-color: #f6f7f7;
-    text-align: center;
-}
-section.container {
-    padding: 0 4%;
+.photos {
     overflow: auto;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
-section.container div.column {
+.container.even {
+    background-color: #f7f9fb;
+}
+.container {
+    padding: 4em 4%;
+}
+li.card {
     float: left;
-    width: 26.5%;
-    margin-right: 3.5%;
-    padding: 0%
+    margin-right: 4%;
+    width: 28%;
+    list-style: none;
 }
-section.container div.column img {
+li.card img {
     width: 100%;
 }
-section.container div.column.last {
+li.card.last {
     margin: 0;
 }
-
