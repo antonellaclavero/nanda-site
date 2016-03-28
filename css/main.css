@@ -97,16 +97,19 @@ section.about p {
     background-color: #f6f7f7;
 }
 section.container {
-    padding: 0 3%;
+    padding: 0 0 0 6%;
     overflow: auto;
 }
 section.container div.column {
     float: left;
-    width: 29%;
+    width: 30%;
     margin-right: 2%;
 }
 section.container div.column img {
     width: 100%;
+    margin: 1em auto;
+    height: auto;
+    display: block;
 }
 section.container div.column.last {
     margin: 0;
