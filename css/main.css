@@ -147,7 +147,7 @@ section.container div.column.last {
 /*section concerts*/
 
 section.concerts {
-    padding: 15px 10% 40px;
+    padding: 15px 11% 40px;
     background: transparent url("../images/background-concerts.jpg") no-repeat;
     background-size: cover;
     height: 100vh;
