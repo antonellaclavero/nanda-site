@@ -52,38 +52,48 @@ nav li a {
 /*home*/
 
 header.intro-holder {
-    background: url(../images/background-header.jpg) top center no-repeat;
+    background: url("../images/background-header.jpg") no-repeat;
     background-size: cover;
     height: 100vh;
-    background-position: center 0;
+    background-position: 0;
 }
 header div.intro {
-    width: 100%;
     height: 200px;
     top: 70%;
     margin-top: 20px;
     text-align: left;
-    position: absolute;
+    position: relative;
     color: #fff;
     margin: 0 5%;
 }
 header div.intro img {
     width: 400px;
+    display: block;
 }
 div.intro p {
     text-transform: uppercase;
-}
-header div.intro h1 {
-    font-size: 60pt;
-    line-height: 60pt;
-    font-weight: 700;
+    display: inline-block;
 }
 header div.intro p {
-    margin: 0 0 0 2.5em;
+    margin: 0 2em;
     font-size: 18pt;
     line-height: 18pt;
     letter-spacing: 0.5px;
     font-weight: 300;
+}
+header div.intro ul {
+    float: right;
+}
+header div.intro li {
+    display: inline-block;
+}
+header div.intro li a {
+    font-size: 42px;
+    color: #fff;
+    margin: 0 0.5em;
+}
+header div.intro li a.icon-twitter3 {
+    font-size: 43px;
 }
 
 /*section bio*/
@@ -107,7 +117,7 @@ section.music {
 section.music iframe {
     display: block;
     margin: 0 auto;
-    width: 96%;
+    width: 80%;
     height: 560px;
 }
 /*section media*/
@@ -116,7 +126,7 @@ section.music iframe {
     background-color: #f6f7f7;
 }
 section.container {
-    padding: 0 0 3em 6%;
+    padding: 0 7% 60px 11%;
     overflow: auto;
 }
 section.container div.column {
@@ -138,17 +148,19 @@ section.container div.column.last {
 
 section.concerts {
     padding: 15px 10% 40px;
-    text-align: center;
-    background-color: #000;
-    color: #fff;
-    background: transparent url("../images/background-opacity.jpg") no-repeat;
+    background: transparent url("../images/background-concerts.jpg") no-repeat;
     background-size: cover;
     height: 100vh;
-    background-position: center 0;
+    background-position: 0;
+    color: #000;
+    text-align: center;
 }
 section.concerts ul {
     float: left;
     margin: 1em 0.5em;
+    background-color: #f6f7f7;
+    border-radius: 0.4em;
+    padding: 2%;
 }
 section.concerts li {
     margin: 2em 0;
@@ -190,7 +202,7 @@ a.btn {
 a.btn:hover {
     border: solid 2px #FF0066;
 }
-footer li {
+footer ul.contact li {
     display: inline-block;
 }
 footer li a {
