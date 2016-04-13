@@ -25,7 +25,9 @@ h1 {
 a:hover {
     color: #FF0066;
 }
-
+span {
+    display: none;
+}
 /*nav*/
 
 header nav {
@@ -166,9 +168,42 @@ section.concerts p {
 /*footer*/
 
 footer  {
-    padding: 30px 10%;
+    padding: 30px 10% 60px;
     background-color: #000;
     color: #fff;
+    text-align: center;
 }
-
-
+footer a {
+    color: #fff;
+}
+a.btn {
+    border: solid 2px #fff;
+    padding: 1em 3%;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 2em;
+    display: inline-block;
+    text-align: center;
+}
+a.btn:hover {
+    border: solid 2px #FF0066;
+}
+footer li {
+    display: inline-block;
+}
+footer li a {
+    font-size: 45px;
+    line-height: 47px;
+    margin: 0 0.5em;
+}
+a.icon-twitter3 {
+    font-size: 46px;
+}
+a.icon-facebook3:hover {
+    color: #3b5998;
+}
+a.icon-twitter3:hover {
+    color: #55acee;
+}
