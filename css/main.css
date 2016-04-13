@@ -22,6 +22,9 @@ section h1 {
     color: #FF0066;
     font-weight: 700;
 }
+a:hover {
+    color: #FF0066;
+}
 
 /*nav*/
 
@@ -42,15 +45,14 @@ nav li a {
     line-height: 14pt;
 }
 
+
 /*home*/
 
 header.intro-holder {
     background: url(../images/background-header.jpg) top center no-repeat;
     background-size: cover;
-    width: 100vw;
     height: 100vh;
-    display: table;
-    overflow: hidden;
+    background-position: center 0;
 }
 header div.intro {
     width: 100%;
@@ -62,8 +64,10 @@ header div.intro {
     color: #fff;
     margin: 0 5%;
 }
-div.intro h1,
-p {
+div.intro h1 {
+    text-transform: uppercase;
+}
+div.intro p {
     text-transform: uppercase;
 }
 header div.intro h1 {
@@ -82,7 +86,7 @@ header div.intro p {
 /*section bio*/
 
 section.about {
-    padding: 30px 10%;
+    padding: 30px 10% 80px;
 }
 section.about p {
     text-transform: none;
@@ -91,13 +95,25 @@ section.about p {
     margin: 1em 0;
 }
 
+/*section music*/
+
+section.music {
+    padding: 30px 10% 110px;
+    background-color: #000;
+}
+section.music iframe {
+    display: block;
+    margin: 0 auto;
+    width: 96%;
+    height: 560px;
+}
 /*section media*/
 
 .container.even.photos {
     background-color: #f6f7f7;
 }
 section.container {
-    padding: 0 0 0 6%;
+    padding: 0 0 3em 6%;
     overflow: auto;
 }
 section.container div.column {
@@ -107,10 +123,41 @@ section.container div.column {
 }
 section.container div.column img {
     width: 100%;
-    margin: 1em auto;
+    margin: 1.5em auto;
     height: auto;
     display: block;
 }
 section.container div.column.last {
     margin: 0;
+}
+
+/*section concerts*/
+
+section.concerts {
+    padding: 15px 10% 40px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    background: transparent url("../images/background-opacity.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center 0;
+}
+section.concerts ul {
+    float: left;
+    margin: 1em 0.5em;
+}
+section.concerts li {
+    margin: 2em 0;
+    padding: 0 15px 0 0;
+}
+section.concerts h2 {
+    text-transform: uppercase;
+    font-size: 18pt;
+    line-height: 18pt;
+}
+section.concerts p {
+    margin: 1em 0;
+    font-size: 16pt;
+    line-height: 16pt;
 }
