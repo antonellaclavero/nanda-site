@@ -1,7 +1,7 @@
 # Site settings
 title: Nanda
 email: nandaproduccion@gmail.com
-description: >"baseurl: Nanada - Cantante Compositora - Paysandú - Uruguay - Sitio oficial"
+description: "baseurl: Nanada - Cantante Compositora - Paysandú - Uruguay - Sitio oficial"
 
 #baseurl: "/nanda-site/" # the subpath of your site, e.g. /blog
 #url: "http://nandasite.com" # the base hostname & protocol for your site
