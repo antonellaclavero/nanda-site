@@ -164,20 +164,19 @@ section.concerts ul {
 }
 section.concerts li {
     margin: 2em 0;
-    padding: 0 15px 2px 0;
+    /*padding: 0 15px 2px 0;*/
 }
 section.concerts h2 {
     text-transform: uppercase;
-    font-size: 26pt;
-    line-height: 26pt;
+    font-size: 18pt;
+    line-height: 18pt;
     margin: 1em 0;
-    font-weight: 600;
     letter-spacing: 1px;
 }
 section.concerts p {
     margin: 1em 0;
-    font-size: 16pt;
-    line-height: 16pt;
+    font-size: 14pt;
+    line-height: 14pt;
 }
 
 /*footer*/
